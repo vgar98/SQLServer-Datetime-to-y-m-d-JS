@@ -6,3 +6,7 @@ function retorna_fecha_ymd(fecha){
     let fecha_nueva = `${anho}-${((mes+'').length<2?'0'+mes:mes)}-${((dia+'').length<2?'0'+dia:dia)}`;
     return fecha_nueva;
 }
+//Just call the function e.g.
+//..insert your variable in retorna_fecha_ymd($Var)
+let new_date = retorna_fecha_ymd(yourDateVariable);
+//.. have fun ;)
