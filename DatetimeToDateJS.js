@@ -1,4 +1,4 @@
-function retorna_fecha_ymd(fecha){
+function retorna_fecha_ymd(fecha = new Date()){
     let new_fecha = new Date(fecha);
     let anho = new_fecha.getFullYear();
     let dia = new_fecha.getDate();
@@ -9,4 +9,6 @@ function retorna_fecha_ymd(fecha){
 //Just call the function e.g.
 //..insert your variable in retorna_fecha_ymd($Var)
 let new_date = retorna_fecha_ymd(yourDateVariable);
+//in case wanna call default date just:
+let new_date = retorna_fecha_ymd();
 //.. have fun ;)
